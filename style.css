@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    height: 100vh;
+    width: 100vw;
+    background: #FCEEF1;
+    padding: 0 10%;
+}
+.head-text{
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.head-text h1{
+    font-size: 4.7vw;
+    font-weight: 700;
+}
+.head-text p{
+    font-size: 1.3vw;
+    width: 90%;
+    margin: 3.4vh 0;
+    line-height: 25px;
+    opacity: .8;
+}
+button{
+    font-size: 1.2vw;
+    padding: 8px 20px;
+    color: white;
+    font-weight: 600;
+    background: #e55473;
+    border-radius: 3px;
+    border: none;
+    width: fit-content;
+}
+.head-img{
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.head-img img{
+    width: 80%;
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    margin-left: 6vw;
+}
+
+/* featured-page */
+.featured-page{
+    width: 100vw;
+}
+.page-title{
+    text-align: center;
+    width: 33vw;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+h2{
+    font-weight: 900;
+}
+.page-title p{
+    font-size: 14px;
+    margin: 20px 0 35px;
+    opacity: .6;
+}
+.featured-img{
+    width: 100%;
+    display: flex;
+    gap: 25px;
+    padding: 0 13%;
+}
+.img-container{
+    width: 33.3%;
+    text-align: center;
+}
+.img-container .img{
+    width: 100%;
+    height: 30vw;
+    border-radius: 50% 50% 0 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 21px;
+}
+.img img{
+    width: 80%;
+    height: 80%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+.bg1{background: #F1DDE7;}
+.bg2{background: #d1eced;}
+.bg3{background: #dce9ce;}
+
+.img-container p{
+    text-decoration: underline;
+}
+/* service */
+.service-box{
+    padding: 0 13%;
+    width: 100%;
+    margin-top: 8rem;
+}
+.service{
+    width: 100%;
+    background: #F4F4F4;
+    border-radius: 5px;
+    display: flex;
+    padding: 3rem 10% 3rem 12%;
+    text-align: center;
+}
+.service-1,.service-2,.service-3{
+    width: 33.34%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.service img{
+    height: 55px;
+    width: 55px;
+}
+.service p{
+    font-size: 1rem;
+    opacity: .6;
+    margin-top: 1rem;
+}
+/* deal */
+.deal{
+    width: 100%;
+    height: 80vh;
+    background: #f6d6df;
+    margin: 5rem 0;
+}
+span{
+    color: #e55473;
+}
+.deal-title{
+    width: 60%;
+    height: 100%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.deal-img{
+    width: 40%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.deal-img img{
+    width: 60%;
+}
+.deal-title h1,button{
+    margin: 1rem 0;
+}
+p{
+    font-size: 90%;
+    opacity: .6;
+}
+
+/* instagram */
+.instagram-box{
+    width: 100vw;
+}
+.instagram-title{
+    height: 20%;
+    text-align: center;
+    width: 30vw;
+    margin: 0 auto;
+}
+.instagram-title p{
+    font-size: 75%;
+    margin: 1.3rem 0;
+    line-height: 1.3rem;
+}
+.instagram-img{
+    width: 100%;
+    padding: 0 13%;
+    height: 80%;
+    display: flex;
+    gap: 4%;
+}
+.instagram-img img{
+    width: 22%;
+    height: 65%;
+    border-radius: 5px;
+}
+
+/* subscribe */
+.sub-box{
+    padding: 0 13%;
+    width: 100%;
+    height: 35vh;
+    margin: 4rem 0;
+}
+.subscribe{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-image: url('image/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe p{
+    margin: 1.5rem 0;
+    opacity: .6;
+}
+.input{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+}
+#email{
+    width: 73%;
+    height: 2.5rem;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    padding: 0 3%
+}
+#submit{
+    border: none;
+    background-color: #e55473;
+    height: 2.5rem;
+    padding: 0 20px;
+    color: #F4F4F4;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+footer{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #0a0a0a;
+    color: white;
+}
+footer p{
+    margin: .8rem 0;
+    width: 30%;
+    text-align: center;
+    font-size: 80%;
+}
+small{
+    color: #485a64;
+}
